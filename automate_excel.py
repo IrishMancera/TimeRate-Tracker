@@ -145,7 +145,6 @@ def prompt_date_range():
         logging.error("Start date must not be later than end date.")
         exit(1)
 
-    logging.info(f"Date range: {start_date} to {end_date}")
     return start_date, end_date
 
 # ------------------------------------------------------------
